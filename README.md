@@ -5,3 +5,5 @@ QT_GUI  是  《PYTHON QT GUI快速编程 PYQT编程指南 ,马克·萨默菲尔
 PYTHON_STANDARD  是  《python标准库》.pdf 的代码
 
 PYTHON_WRITE_REPTILE 是 《用python写网络爬虫》.pdf 的代码
+
+PYTON_DATA_SCRAPING 是 《python3网络爬虫数据采集》.pdf的代码
