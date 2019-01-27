@@ -57,14 +57,3 @@ class face_recognition:
         goal = self.dist_o(data[0],data[1])
         # 判断结果，如果goal小于0.6的话是同一个人，否则不是。我所用的是欧式距离判别
         return 1-goal
-
-
-predictor_path = "/home/lzq/python_project/python_book_code/DLIB/dat/shape_predictor_68_face_landmarks.dat"
-face_rec_model_path = "/home/lzq/python_project/python_book_code/DLIB/dat/dlib_face_recognition_resnet_model_v1.dat"
-face_ = face_recognition(predictor_path,face_rec_model_path)
-# img_1 = './faces/User.1.4.jpg'
-# img_2 = './faces/User.1.46.jpg'
-img_1 = '/home/lzq/python_project/python_book_code/DLIB/face/jj1.jpg'
-img_2 = '/home/lzq/python_project/python_book_code/DLIB/face/jj2.jpg'
-goal = face_.score(img_1,img_2)
-print(goal)
